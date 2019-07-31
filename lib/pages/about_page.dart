@@ -50,7 +50,7 @@ Widget buildAboutPage(BuildContext context) {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Center(
-                  child: Text("A Simple Note Keeper",
+                  child: Text("A SIMPLE WAY TO MANAGE YOUR NOTES",
                       style: TextStyle(
                           color: invertColors(context),
                           fontWeight: FontWeight.w500)),

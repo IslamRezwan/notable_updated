@@ -35,7 +35,7 @@ class EditGoalState extends State<EditGoal> {
       appBar: AppBar(
         elevation: 5.0,
         backgroundColor: MyColors.primaryColor,
-        title: Text("Edit Goal",
+        title: Text("Edit Note",
             style: TextStyle(fontWeight: FontWeight.w700, fontSize: 22.0)),
       ),
       body: Container(

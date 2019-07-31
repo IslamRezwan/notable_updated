@@ -44,7 +44,7 @@ class CreateGoalState extends State<CreateGoal> {
       appBar: AppBar(
         elevation: 5.0,
         backgroundColor: MyColors.primaryColor,
-        title: Text("New Goal",
+        title: Text("New Note",
             style: TextStyle(fontWeight: FontWeight.w700, fontSize: 22.0)),
       ),
       body: Container(
@@ -69,7 +69,7 @@ class CreateGoalState extends State<CreateGoal> {
                   height: 15.0,
                 ),
                 Center(
-                  child: Text("New Goal",
+                  child: Text("New Note",
                       style: TextStyle(
                           color: invertColors(context),
                           fontWeight: FontWeight.w700,
@@ -93,11 +93,11 @@ class CreateGoalState extends State<CreateGoal> {
                         borderSide: BorderSide(color: invertColors(context)),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: MyColors.purple),
+                        borderSide: BorderSide(color: MyColors.primaryColor),
                       ),
                       border: OutlineInputBorder(),
-                      labelText: "Goal Title",
-                      hintText: "What\'s your goal for today?",
+                      labelText: "Note Title",
+                      hintText: "What\'s your note for today?",
                       labelStyle: TextStyle(
                         color: invertColors(context),
                       ),
@@ -124,7 +124,7 @@ class CreateGoalState extends State<CreateGoal> {
                         borderSide: BorderSide(color: invertColors(context)),
                       ),
                       focusedBorder: OutlineInputBorder(
-                        borderSide: BorderSide(color: MyColors.purple),
+                        borderSide: BorderSide(color: MyColors.primaryColor),
                       ),
                       border: OutlineInputBorder(),
                       labelText: "Description",
@@ -142,7 +142,7 @@ class CreateGoalState extends State<CreateGoal> {
                 ),
                 Theme(
                   data: Theme.of(context).copyWith(
-                      primaryColor: MyColors.purple,
+                      primaryColor: MyColors.primaryColor,
                       accentColor: MyColors.yellow),
                   child: Builder(
                     builder: (context) => OutlineButton(
@@ -156,7 +156,7 @@ class CreateGoalState extends State<CreateGoal> {
                           },
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(5.0)),
-                          borderSide: BorderSide(color: MyColors.purple),
+                          borderSide: BorderSide(color: MyColors.primaryColor),
                           highlightedBorderColor: MyColors.yellow,
                           splashColor: MyColors.yellow,
                         ),

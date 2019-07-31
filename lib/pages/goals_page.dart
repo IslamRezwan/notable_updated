@@ -155,7 +155,7 @@ class _GoalsPageState extends State<GoalsPage> {
       appBar: AppBar(
         elevation: 5.0,
         backgroundColor: MyColors.primaryColor,
-        title: Text("My Goals",
+        title: Text("Notable",
             style: TextStyle(fontWeight: FontWeight.w700, fontSize: 22.0)),
         actions: <Widget>[
           IconButton(
